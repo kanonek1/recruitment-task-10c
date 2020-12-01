@@ -33,8 +33,6 @@ const Form = memo(() => {
   const [isInvalidRadio, setIsInvalidRadio] = useState('');
   const [radioValues, setRadioValues] = useState();
 
-  const [showObj, setShowObj] = useState({});
-
   const [dateObjectValue, setDateObjectValue] = useState('1990-01-01');
   const [nameObjectValue, setNameObjectValue] = useState(nameValue);
   const [numberObjectValue, setNumberObjectValue] = useState('Invalid Data');
@@ -104,7 +102,10 @@ const Form = memo(() => {
   };
 
   useEffect(() => {
-    setShowObj({
+    // this show change of object
+
+    // eslint-disable-next-line no-undef
+    console.log({
       name: nameObjectValue,
       prefix: prefixObjectValue,
       number: numberObjectValue,
@@ -174,5 +175,7 @@ const Form = memo(() => {
     </FormEmotion>
   );
 });
+
+Form.displayName = 'Form';
 
 export default Form;
