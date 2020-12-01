@@ -33,7 +33,7 @@ const obj = [
 ];
 
 export default function DateElement({ isInvalidDate, oneChangeAllInput }) {
-  const [date, setDate] = useState(['1990-01-01']);
+  const date = ['1990-01-01'];
   const [valueList, setValueList] = useState('January');
   const [valueOpenSelect, setValueOpenSelect] = useState(false);
   const [desktopList, setDesktopList] = useState(null);

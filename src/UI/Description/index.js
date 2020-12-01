@@ -1,6 +1,5 @@
 import React from 'react';
 import { H2Element } from './emotion';
-import { css } from '@emotion/react';
 
 export default function Description() {
   return (

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback, memo } from 'react';
+import React, { useEffect, useCallback, memo } from 'react';
 import { css } from '@emotion/react';
 import { UlElement, LiElement } from './emotion';
 import PropTypes from 'prop-types';

@@ -1,4 +1,3 @@
-import { checkPropTypes } from 'prop-types';
 import React from 'react';
 import { Arrow } from './emotion';
 import PropTypes from 'prop-types';

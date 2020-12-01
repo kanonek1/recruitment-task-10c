@@ -12,8 +12,6 @@ export default function Mobile({
   isInvalidPrefix,
   onChangeNumber,
   onChangePrefix,
-  prefixValue,
-  showListOutside,
   valueNumber,
   valueOnStartPrefix,
   ...props
@@ -120,8 +118,6 @@ Mobile.propTypes = {
   isInvalidPrefix: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   onChangeNumber: PropTypes.func,
   onChangePrefix: PropTypes.func,
-  prefixValue: PropTypes.string,
-  showListOutside: PropTypes.string,
   valueNumber: PropTypes.string,
   valueOnStartPrefix: PropTypes.func,
 };
